@@ -1,10 +1,10 @@
 
 function createNestedArr(jumlahRow, jumlahCol) {
     
-    var random=''
+    var random = ''
     var alph = 'abcdefghijklmnopqrstuvwxyz'
     for (let i = 0; i < (jumlahRow * jumlahCol); i++) {
-    var rnum=Math.floor(Math.random()* alph.length)
+    var rnum = Math.floor(Math.random()* alph.length)
         random += alph[rnum]
     }
     
